@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 30px 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #efdddd;
+}
+
+.container-all{
+    position: static;
+    box-shadow: 2px 2px 2px 1px #f8f8f8;
+    background-color: #ffffff;
+    width: 70%;
+    padding: 20px 0 20px 0;
+}
+
+.datos__personales{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 0 50px 0 50px ;
+
+}
+
+.datos{
+    position: realtive;
+    top: 250px;
+}
+
+.estudios_realizados{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 0 50px 0 50px ;
+
+}
+.referencia{
+    padding: 0 50px 0 50px;
+}
+.referencias{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0 30px 0 30px;
+    
+}
+.fot{
+    
+    padding: 0 450px;
+}
+.foto img{
+    
+    width: 150px;
+    height: 150px;
+}
+
+.titulo{
+    color: #050505;
+    text-align: center;
+    background-color: rgb(251, 238, 238);
+}
+.subtitulo{
+    color: #c04e4e;
+}
+
+.dat{
+    padding: 0 20px 0 20px;
+}
+h4{
+    color:#000000;
+}
+.experiencia_laboral{
+    padding: 0 50px 0 50px;
+}
